@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4198165516485110}
   - component: {fileID: 114282795431977672}
+  - component: {fileID: 114810697924765736}
   m_Layer: 0
   m_Name: EvilRobot
   m_TagString: Untagged
@@ -287,8 +288,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1327422881976862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.2300615, y: 2.0983238, z: -23.2147}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 4421377851580534}
   - {fileID: 4535513914676996}
@@ -791,7 +792,7 @@ MeshCollider:
   m_GameObject: {fileID: 1914130968063462}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
@@ -805,7 +806,7 @@ MeshCollider:
   m_GameObject: {fileID: 1022855846553988}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
@@ -819,7 +820,7 @@ MeshCollider:
   m_GameObject: {fileID: 1793730113442970}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
@@ -833,7 +834,7 @@ MeshCollider:
   m_GameObject: {fileID: 1845689067939846}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
@@ -847,7 +848,7 @@ MeshCollider:
   m_GameObject: {fileID: 1575941570783460}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
@@ -861,7 +862,7 @@ MeshCollider:
   m_GameObject: {fileID: 1309945782814096}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
@@ -875,7 +876,7 @@ MeshCollider:
   m_GameObject: {fileID: 1710989284324554}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
@@ -11441,6 +11442,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
+--- !u!114 &114810697924765736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1327422881976862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b21daa5f8c319ea4cb8c7b957978f13a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  enemyCoolDownLength: 1
+  minRange: 4
 --- !u!114 &114874177743216762
 MonoBehaviour:
   m_ObjectHideFlags: 1

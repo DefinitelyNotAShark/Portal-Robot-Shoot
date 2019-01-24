@@ -25,15 +25,17 @@ MonoBehaviour:
   - pb_SmoothingGroupEditor::m_PreviewOpacity
   - pbEditorScroll.x
   - pbEditorScroll.y
+  - pbBevelAmount
   m_String_keys: []
   m_Color_keys: []
   m_Material_keys: []
   m_Bool_values: 010100
-  m_Int_values: 010000000000000000000000000000000a000000
+  m_Int_values: 000000000200000000000000000000000a000000
   m_Float_values:
   - 0.377
   - 0
-  - 71.600006
+  - 101.600006
+  - 0.001
   m_String_values: []
   m_Color_values: []
   m_Material_values: []
